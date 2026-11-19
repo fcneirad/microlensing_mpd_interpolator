@@ -1,0 +1,18 @@
+# Nested git repository (clone of weisluke/bayesian_microlensing)
+bayesian_microlensing/
+
+# Large data files (pre-computed MPD grids, ~2.6 GB each)
+microlensing_mpd/data/*.npy
+
+# Generated figures
+microlensing_mpd/figures/
+
+# Archive
+microlensing_mpd.tar.gz
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
